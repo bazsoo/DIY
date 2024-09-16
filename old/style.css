@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(kepek/hatter.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+}
+
+.banner button {
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.opening-hours {
+    padding: 20px;
+    text-align: center;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
