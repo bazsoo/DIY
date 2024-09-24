@@ -151,6 +151,8 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .member {
@@ -188,9 +190,9 @@ li {
     transition: all 0.3s ease;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .back-button:before {
+.back-button:before {
     position: absolute;
     left: -25px;
     top: 50%;
@@ -198,24 +200,22 @@ li {
     font-size: 18px;
     color: #666;
     transition: left 0.3s ease;
-  }
+}
   
-  .back-button:hover {
+.back-button:hover {
     background-color: #e0e0e0;
     border-color: #999;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  }
+}
   
-  .back-button:hover:before {
+.back-button:hover:before {
     left: -30px;
-  }
+}
   
-  .back-button:active {
+.back-button:active {
     background-color: #d0d0d0;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  }
-.kozepre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.festek {
+    margin-top: 35px;
 }
