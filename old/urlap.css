@@ -106,3 +106,8 @@ footer p {
 h1, h2 {
     text-align: center;
 }
+p {
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
