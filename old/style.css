@@ -225,3 +225,16 @@ li {
     text-align: center;
     padding: 75px;
 }
+.kozepre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alsofa2 {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+}
